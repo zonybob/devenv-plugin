@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>run</actionName>
+            <goals>
+                <goal>hpi:run</goal>
+            </goals>
+            <properties>
+                <port>8089</port>
+            </properties>
+        </action>
+        <action>
+            <actionName>debug</actionName>
+            <goals>
+                <goal>hpi:run</goal>
+            </goals>
+            <properties>
+                <jpda.listen>maven</jpda.listen>
+                <port>8089</port>
+            </properties>
+        </action>
+    </actions>

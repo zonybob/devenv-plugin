@@ -1,0 +1,6 @@
+<!--
+  This view is used to render the installed plugins page.
+-->
+<div>
+  This plugin can be used in place of the Jenkins MSBuild Plugin when .vdproj (Installer) support is needed.
+</div>
